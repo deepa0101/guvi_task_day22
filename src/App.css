@@ -1,0 +1,39 @@
+@import '/node_modules/@fortawesome/fontawesome-free/css/all.min.css';
+
+#root {
+  margin: 0 auto;
+  background: linear-gradient(to left, #0062E6, #33AEFF);;
+  padding: 2rem;
+  
+
+}
+.container{
+  display: flex;
+  flex-direction: row ;
+
+}
+
+#card {
+  background-color: white;
+  border-radius: 50px;
+  color: black;
+}
+#Card.Title{
+  text-align: center;
+  font-size: xx-small;
+}
+#card subtitle{
+  text-align: center;
+
+}
+.card li{
+  margin: 1em 0px;
+}
+
+.card button{
+  width:16em;
+  border-radius: 25px;
+  padding:1em;
+  align-items: center;
+
+}
